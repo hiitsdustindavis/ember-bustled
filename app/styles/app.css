@@ -1,0 +1,22 @@
+h1, h2, h3, h4, li, p, span, a, a:hover {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  height: 20rem;
+}
+footer {
+  margin: 4rem 0 0 0;
+  height: 20rem;
+  background-color: lightblue;
+}
+section {
+  flex: 1;
+}

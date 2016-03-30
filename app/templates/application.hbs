@@ -1,13 +1,23 @@
 <header class = "jumbotron">
-  <h1>BUSTLED!</h1>
+  <div class="container">
+    <h1>{{#link-to 'index'}}BUSTLED!{{/link-to}}</h1>
+    <nav>
+      <ul>
+        <li>{{#link-to 'index'}}Home{{/link-to}}
+        </li>
+      </ul>
+    </nav>
+  </div>
 </header>
 
-<div class="container">
-  {{outlet}}
-</div>
-
-<hr>
+<section>
+  <div class="container">
+    {{outlet}}
+  </div>
+</section>
 
 <footer>
+  <div class="container">
   Our representatives would love to help!
+  </div>
 </footer>
